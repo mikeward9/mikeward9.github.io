@@ -1,12 +1,12 @@
 # Site settings
-description: A blog about lorem ipsum dolor sit amet
+description: Mike Ward's CV
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mikeward9.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: mikeward9
-user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Mike Ward
+username: mike ward
+user_description: ASP.NET and Frontend Developer
+user_title: ASP.NET and Frontend Developer
 email: mikeward9@gmail.com
 github_username:  mikeward9
 
