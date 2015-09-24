@@ -3,11 +3,11 @@ layout: cv
 title: "Curriculum Vitae"
 description: 'Mike Ward Curriculum Vitae'
 ---
-# MIKE WARD
+# Mike Ward
 
-### Microsoft Stack Software Engineer - London and South East England
+**ASP.NET and Frontend Developer &middot; London and South East**
 
-### mikeward9@gmail.com - [LinkedIn](https://uk.linkedin.com/in/mikeward9){:target="_blank"}
+**[mikeward9@gmail.com](mailto:mikeward9@gmail.com) &middot; [https://uk.linkedin.com/in/mikeward9](https://uk.linkedin.com/in/mikeward9){:target="_blank"}** 
 
 ## TECHNICAL
 - Strong ASP.NET and related Object Oriented software engineering skills primarily using C# with MVC5 and Webforms

@@ -54,7 +54,7 @@ gulp.task('stylus', function(){
 		}))
 		.pipe(gulp.dest('_site/assets/css/'))
 		.pipe(browserSync.reload({stream:true}))
-		.pipe(gulp.dest('assets/css'))
+		.pipe(gulp.dest('assets/css'));
 });
 
 /**
@@ -65,7 +65,7 @@ gulp.task('js', function(){
 		.pipe(plumber())
 		.pipe(concat('main.js'))
 		.pipe(uglify())
-		.pipe(gulp.dest('assets/js/'))
+		.pipe(gulp.dest('assets/js/'));
 });
 
 /**
@@ -86,7 +86,7 @@ gulp.task('watch', function () {
 	gulp.watch('src/styl/**/*.styl', ['stylus']);
 	gulp.watch('src/js/**/*.js', ['js']);
 	gulp.watch('src/img/**/*.{jpg,png,gif}', ['imagemin']);
-	gulp.watch(['*.html', '_includes/*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
+	gulp.watch(['*.html', '_includes/*.html', '_layouts/*.html', '_posts/*', 'index.md'], ['jekyll-rebuild']);
 });
 
 /**
